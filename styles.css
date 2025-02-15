@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+h1 {
+    font-family: "Barriecito";
+}
+
+h5 {
+    font-family: "Zain";
+    font-weight: 300;
+}
+
+article {
+    font-family: "Zain";
+    font-weight: 300;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+/*-------------------------------------------*/
+#logo {
+    margin-left: 5vh;
+    
+}
+
+.titulo {
+    margin-bottom: 0;
+}
+
+.corpo {
+    margin-top: 0;
+}
+/*-------------------------------------------*/
+#banner {
+    max-width: 100%;
+    padding: 10vh;
+    display: flex;
+    background-image: url("https://live.staticflickr.com/7498/27528274170_a47be65fd4_k.jpg");
+    background-attachment: fixed;
+    justify-content: space-between;
+}
+
+#banner h5, #banner h1 {
+    color: white;
+    text-shadow: 0px 0px 20px black;
+    font-size: 10vh;
+}
+
+#banner h1 {
+    margin-bottom: 0;
+}
+
+#banner h5 {
+    margin-top: 0;
+}
+
+#banner article {
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    padding: 2vh;
+    margin-bottom: 0;
+    width: 90vh;
+    height: fit-content;
+}
+/*-------------------------------------------*/
+#historia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.historiaIntro {
+    margin-left: 45%;
+    position: absolute;
+}
+
+.historiaIntro h1 {
+    font-size: xx-large;
+}
+
+.historiaFotos {
+    max-width: 50%;
+    padding: 10vh;
+    margin-top: 5vh;
+    display: flex;
+}
+
+.historiaFotos img {
+    max-width: 100%;
+    box-shadow: 0px 0px 10px black;
+}
+
+#historia article {
+    background-color: black;
+    color: white;
+    max-width: 50%;
+    margin-top: 15vh;
+    margin-right: 5vh;
+    padding: 2vh;
+    height: fit-content;
+}
+/*-------------------------------------------*/
+footer {
+    background-image: url("https://live.staticflickr.com/5494/9557362238_7d0acfb3e8_c.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5vh;
+    margin-bottom: 0;
+}
+
+#infoFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoFooter {
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 10vh;
+    padding: 1vh;
+    box-shadow: 0px 0px 10px black;
+}
+
+.tituloFooter, .corpoFooter {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.creditoImagens {
+    font-family: "Zain";
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 10vh;
+    padding: 1vh;
+    box-shadow: 0px 0px 10px black;
+}
+
+.nomeFotografo {
+    margin: 0;
+    font-weight: 300;
+}
+
+.introCreditos {
+    margin-top: 0;
+}
+
+#copyright {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    padding: 0;
+}
+
+#copyright h1 {
+    font-family: "Zain";
+}
